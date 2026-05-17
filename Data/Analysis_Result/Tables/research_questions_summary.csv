@@ -1,0 +1,4 @@
+﻿rumusan_masalah,fokus,temuan_utama,output_pendukung
+RM1,Distribusi sentimen pengguna YouTube,Sentimen paling dominan adalah Netral dengan 3439 komentar (64.41%).,final_sentiment_distribution; example_comments_by_sentiment
+RM2,Bentuk kekhawatiran dan tanggapan terhadap keberlanjutan uang tunai,Kategori RM2 teridentifikasi paling dominan adalah Keamanan data dan kontrol dengan 495 kemunculan (9.27% dari total komentar).,cash_response_distribution_refined; example_comments_by_cash_category_refined
+RM3,"Perbandingan performa Naive Bayes, SVM, dan IndoBERT",Model terbaik adalah IndoBERT berdasarkan F1 Macro dengan nilai 0.878374.,model_comparison_summary; confusion_matrix; mcnemar_results_summary

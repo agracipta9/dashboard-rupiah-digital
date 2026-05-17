@@ -1,0 +1,13 @@
+Metrik,Nilai
+jumlah_komentar_mentah,6278
+jumlah_kolom,6
+jumlah_video_unik,15
+komentar_kosong,1
+duplikat_seluruh_baris,0
+duplikat_berdasarkan_komentar,93
+tanggal_komentar_terawal,2022-11-30 04:51:26
+tanggal_komentar_terakhir,2026-05-16 09:31:04
+rata_rata_panjang_kata,17.5
+median_panjang_kata,11.0
+rata_rata_panjang_karakter,113.3
+median_panjang_karakter,67.0

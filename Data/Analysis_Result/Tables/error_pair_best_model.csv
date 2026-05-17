@@ -1,0 +1,7 @@
+﻿final_label,pred_indobert,jumlah
+Netral,Negatif,22
+Negatif,Netral,20
+Positif,Netral,16
+Netral,Positif,15
+Positif,Negatif,10
+Negatif,Positif,8

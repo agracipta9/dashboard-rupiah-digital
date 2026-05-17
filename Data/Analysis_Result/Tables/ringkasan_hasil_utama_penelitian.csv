@@ -1,0 +1,10 @@
+﻿Aspek,Hasil Utama
+Total data,5.207 komentar
+Data train dan test,Data train 4.164 dan data test 1.042
+Sentimen dominan,"Netral 3.482 data (66,87%), Negatif 1.271 data (24,41%), dan Positif 454 data (8,72%)"
+Kategori RM2 dominan,Keamanan data dan kontrol sebanyak 441 komentar
+Model terbaik,IndoBERT
+Accuracy terbaik,"0,936660"
+F1 Macro terbaik,"0,907384"
+Hasil McNemar Test,"Seluruh pasangan model memiliki perbedaan performa yang signifikan dengan p-value < 0,05"
+Implementasi,"Dashboard Streamlit untuk overview, RM1 sentimen, RM2 uang tunai, RM3 model, simulasi prediksi, dan kesimpulan"

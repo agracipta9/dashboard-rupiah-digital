@@ -1,0 +1,2 @@
+best_model_name,best_f1_macro,best_accuracy,alasan
+IndoBERT,0.8783743217868517,0.9147940074906367,Model dipilih berdasarkan F1_Macro tertinggi karena data tidak seimbang.

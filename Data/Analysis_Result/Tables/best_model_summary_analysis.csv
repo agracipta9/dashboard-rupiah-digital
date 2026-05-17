@@ -1,0 +1,2 @@
+﻿model_terbaik,metrik_pemilihan,nilai_metrik,Accuracy,Precision Macro,Recall Macro,F1 Macro
+IndoBERT,F1 Macro,0.8783743217868517,0.9147940074906368,0.8795327510917029,0.8773282730404824,0.8783743217868517

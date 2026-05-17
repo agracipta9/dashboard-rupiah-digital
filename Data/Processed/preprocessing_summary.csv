@@ -1,0 +1,2 @@
+﻿total_data_final,train_size,test_size,test_percentage,train_label_netral,train_label_negatif,train_label_positif,test_label_netral,test_label_negatif,test_label_positif,tfidf_features,output_files_created
+5339,4271,1068,20.0,2751,1007,513,688,252,128,5000,"train_data.csv, test_data.csv, train_nb_svm.csv, test_nb_svm.csv, train_indobert.csv, test_indobert.csv, tfidf_vectorizer.pkl, X_train_tfidf.pkl, X_test_tfidf.pkl, y_train.pkl, y_test.pkl, label_mapping.pkl"

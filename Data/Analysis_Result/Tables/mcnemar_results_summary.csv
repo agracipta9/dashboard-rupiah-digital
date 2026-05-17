@@ -1,0 +1,4 @@
+﻿Model_A,Model_B,Both_Correct,A_Correct_B_Wrong,A_Wrong_B_Correct,Both_Wrong,Statistic,P_Value,Conclusion
+Naive Bayes,SVM,744,55,127,142,27.6978021978022,1.4182374867198464e-07,Terdapat perbedaan performa yang signifikan
+Naive Bayes,IndoBERT,763,36,214,55,125.316,4.340243724279773e-29,Terdapat perbedaan performa yang signifikan
+SVM,IndoBERT,836,35,141,56,62.64204545454545,2.479041965174876e-15,Terdapat perbedaan performa yang signifikan
