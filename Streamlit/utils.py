@@ -122,10 +122,36 @@ def find_existing_path(paths: list[str | Path]) -> Path | None:
 
 
 def show_image_or_warning(path: Path, caption: str | None = None) -> None:
-    if path.exists() and path.is_file():
-        st.image(str(path), caption=caption, use_container_width=True)
-    else:
+    import base64
+    import mimetypes
+
+    if not path.exists() or not path.is_file():
         st.info(f"Gambar belum tersedia: `{path}`")
+        return
+
+    try:
+        mime_type = mimetypes.guess_type(str(path))[0] or "image/png"
+        image_base64 = base64.b64encode(path.read_bytes()).decode("utf-8")
+
+        caption_html = ""
+        if caption:
+            caption_html = (
+                f"<div style='text-align:center; color:#CBD5E1; "
+                f"font-size:0.85rem; margin-top:0.35rem;'>{caption}</div>"
+            )
+
+        st.markdown(
+            f"""
+            <div style="text-align:center;">
+                <img src="data:{mime_type};base64,{image_base64}"
+                     style="max-width:100%; border-radius:12px;" />
+                {caption_html}
+            </div>
+            """,
+            unsafe_allow_html=True,
+        )
+    except Exception as exc:
+        st.warning(f"Gambar gagal ditampilkan: `{path}`. Detail: {exc}")
 
 
 def format_metric_value(value: Any, decimals: int = 3) -> str:
